@@ -4,8 +4,8 @@
 }
 
 body{
-    background:linear-gradient rgba(to top 0 0 0 8)50%,rgba(to top 0 0 0 8)50%;
-    background-image: url(./pexels-pixabay-268533.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.808)50%,rgba(0,0,0,0.808)50%);
+    background-image: url(./image/pexels-pixabay-268533.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,12 +16,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .header h1{
     color: #fc6d00;
-    font-size: 40px;
-    font-family:Helvetica;
+    font-size: 35px;
+    font-family:sans-serif;
 }
 
 
@@ -86,13 +88,13 @@ body{
 }
 
 .main{
-    margin-top: 60px;
-    margin-left: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
 .main h1{
-    font-size: 40px;
-    font-family: Times New Roman;
+    font-size: 70px;
+    font-family: sans-serif;
     color: white;
 }
 
@@ -131,12 +133,12 @@ body{
 
 .side{
     position: absolute;
-    background: linear-gradient(to top,rgba(0,0,0,8)50%,rgba(0,0,0,8)50%);
-    width: 300px;
-    height: 300px;
-    top: 120px;
-    left: 750px;
-    color: aliceblue;
+    background: linear-gradient(rgba(0, 0, 0, 0.808)50%,rgba(0,0,0,0.808)50%);
+    width: 450px;
+    height: 400px;
+    top: 180px;
+    left: 900px;
+    color: white;
     margin: auto;
     justify-content: center;
     border-radius: 8px;
@@ -146,15 +148,15 @@ body{
 .side h1{
     color: #fc6d00;
     background: white;
-    width: 200px;
-    height: 35px;
+    width: 250px;
+    height: 45px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 5px;
-    font-size: 30px;
-    font-family: Arial;
+    font-size: 40px;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -166,7 +168,7 @@ body{
 .side input{
     background: transparent;
     color: white;
-    margin-top:10px;
+    margin-top:30px;
     margin-bottom: 20px;
     width: 250px;
     border: none;
@@ -210,4 +212,73 @@ body{
 .login:hover{
     background: white;
 
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+.acc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.acc img{
+    width: 30px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+
+.acc1:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc2:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc3:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc4:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc5:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+
+.acc6:hover{
+    background:transparent;
+    outline: none;
+    border: 1px solid #fc6d00;
+    transition: 0.1s ease;
+    cursor: pointer;
 }
